@@ -1,0 +1,121 @@
+body.profile
+{
+    font-family:Impact,Charcoal,sans-serif;
+    background-color: pink;
+    text-align: center;
+} 
+h1
+{
+	font-family:Impact, Charcoal, sans-serif;
+	font-size: 40px;
+	color:firebrick;
+	text-align:center;
+	padding: 5px;
+    margin-left:10px;
+
+}
+.profile
+{
+	font-family:Impact, Charcoal, sans-serif;
+	font-size: 20px;
+	color:hsl(0,100%,50%);
+	text-align:center;
+
+}
+ul.profilee {
+    list-style-type: none;
+}
+#menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color:dodgerblue;
+}
+
+li.menu {
+    float: left;
+    text-align: center;
+}
+
+li.menu a {
+    display: block;
+    color: red;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+
+li.menu a:hover {
+    background-color:white;
+}
+
+.active {
+    background-color:white;
+}
+
+/*ul{
+	 list-style-position: outside;
+}*/
+ol li {
+    background:pink;
+    padding: 5px;
+  
+}
+
+ul li {
+    background: pink;
+    margin: 5px;
+}
+
+
+/*for link*/
+a:link {
+    color:red;
+    background-color:violet;
+    text-align: center;
+}
+a:visited {
+    color:hsl(0,100%,45%);
+    background-color: NavajoWhite;
+    text-align: center;
+}
+a:hover {
+	text-decoration: underline;
+    color: hotpink;
+    text-align: center;
+    background-color: white;
+    border: 2px solid hotpink;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+}
+a:active {
+	text-decoration: underline;
+    color: MediumSeaGreen;
+    text-align: center;
+    background-color: white;
+    border: 2px solid MediumSeaGreen;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+}
+
+body.movies
+{
+	font-family:Impact,Charcoal,sans-serif;
+	background-color: pink;
+	color:hsl(0,100%,30%);
+	font-size: 20px;
+}
+h1.movies
+{
+    font-family:Impact,Charcoal,sans-serif;
+	font-size: 40px;
+	color:hsl(0,100%,50%);
+	text-align:center;	
+}
+p.moviepic
+{
+	text-align: center;
+}
